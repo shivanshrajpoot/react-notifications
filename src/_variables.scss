@@ -40,10 +40,14 @@ $react-notifications-title-font-weight: bold !default;
 $react-notifications-title-margin: 0 0 5px 0 !default;
 
 $react-notifications-info-background-color: #2f96b4 !default;
+$react-notifications-info-border: border:4px solid #5256d2 !default;
 $react-notifications-info-content: "\f05a" !default;
 $react-notifications-success-background-color: #51a351 !default;
+$react-notifications-success-border: border:4px solid #00c327 !default;
 $react-notifications-success-content: "\f058" !default;
 $react-notifications-warning-background-color: #f89406 !default;
+$react-notifications-warning-border: border: 4px solid #ffa500 !default;
 $react-notifications-warning-content: "\f06a" !default;
 $react-notifications-error-background-color: #bd362f !default;
+$react-notifications-error-border: border:4px solid #c30000 !default;
 $react-notifications-error-content: "\f057" !default;

@@ -71,7 +71,7 @@
 }
 
 .notification {
-  &:before {
+  /*&:before {
     position: absolute;
     top: $react-notifications-icon-top;
     left: $react-notifications-icon-left;
@@ -83,33 +83,37 @@
     font-size: $react-notifications-icon-font-size;
     text-align: center;
     line-height: $react-notifications-icon-line-height;
-  }
+  }*/
 }
 
 .notification-info {
   background-color: $react-notifications-info-background-color;
-  &:before {
+  border: $react-notifications-info-border;
+  /*&:before {
     content: $react-notifications-info-content;
-  }
+  }*/
 }
 
 .notification-success {
   background-color: $react-notifications-success-background-color;
-  &:before {
+  border: $react-notifications-success-border;
+  /*&:before {
     content: $react-notifications-success-content;
-  }
+  }*/
 }
 
 .notification-warning {
   background-color: $react-notifications-warning-background-color;
-  &:before {
+  border: $react-notifications-warning-border;
+  /*&:before {
     content: $react-notifications-warning-content;
-  }
+  }*/
 }
 
 .notification-error {
   background-color: $react-notifications-error-background-color;
-  &:before {
+  border: $react-notifications-error-border;
+  /*&:before {
     content: $react-notifications-error-content;
-  }
+  }*/
 }

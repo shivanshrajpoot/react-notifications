@@ -56,14 +56,37 @@ class Notification extends React.Component {
     let { title } = this.props;
     const className = classnames(['notification', `notification-${type}`]);
     title = title ? (<h4 className="title">{title}</h4>) : null;
+    let cross_link = <span className="cross-link" onClick={this.handleClick}>X</span>;
     return (
-      <div className={className} onClick={this.handleClick}>
-        <div className="notification-message" role="alert">
-          {title}
-          <div className="message">{message}</div>
+      <div className={className}>
+        <div className="" role="alert">
+          {cross_link}
+          <div className="notification-message" role="alert">
+            {title}
+            <div className="message">{message}</div>
+          </div>
         </div>
       </div>
     );
+    _react2.default.createElement(
+        'div',
+        { className: className },
+        _react2.default.createElement(
+          'div',
+          { className: '' },
+          cross_link,
+          _react2.default.createElement(
+            'div',
+            { className: 'notification-message', role: 'alert' },
+            title,
+            _react2.default.createElement(
+              'div',
+              { className: 'message' },
+              message
+            )
+          )
+        )
+      );
   }
 }
 
