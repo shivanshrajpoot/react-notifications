@@ -68,25 +68,6 @@ class Notification extends React.Component {
         </div>
       </div>
     );
-    _react2.default.createElement(
-        'div',
-        { className: className },
-        _react2.default.createElement(
-          'div',
-          { className: '' },
-          cross_link,
-          _react2.default.createElement(
-            'div',
-            { className: 'notification-message', role: 'alert' },
-            title,
-            _react2.default.createElement(
-              'div',
-              { className: 'message' },
-              message
-            )
-          )
-        )
-      );
   }
 }
 
